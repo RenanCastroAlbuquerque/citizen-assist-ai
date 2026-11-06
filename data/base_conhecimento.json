@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "categoria": "Benefícios e direitos",
+    "titulo": "Pedir o BPC para pessoa com deficiência",
+    "palavras_chave": ["bpc", "loas", "beneficio de prestacao continuada", "beneficio assistencial", "beneficio do inss"],
+    "resposta": "O BPC é um benefício mensal do INSS para pessoas com deficiência de baixa renda, mesmo sem ter contribuído. É preciso ter renda familiar de até 1/4 do salário mínimo por pessoa e o CadÚnico atualizado há menos de 2 anos. O pedido é gratuito e a resposta sai, em média, em 45 dias.",
+    "documentos": ["Documento de identificação com foto (RG, CIN, CNH ou carteira de trabalho)", "CPF de todas as pessoas da família que moram na casa", "CadÚnico atualizado há menos de 2 anos"],
+    "onde": "Aplicativo ou site Meu INSS, ou telefone 135",
+    "fonte": "https://www.gov.br/pt-br/servicos/solicitar-beneficio-assistencial-a-pessoa-com-deficiencia",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 2,
+    "categoria": "Benefícios e direitos",
+    "titulo": "Inscrever a família no Cadastro Único (CadÚnico)",
+    "palavras_chave": ["cadunico", "cadastro unico", "cad unico", "cras", "programas sociais"],
+    "resposta": "O CadÚnico é exigido para benefícios como o BPC e a Tarifa Social de Energia. Pode se inscrever a família com renda de até meio salário mínimo por pessoa. A inscrição é presencial e gratuita.",
+    "documentos": ["CPF ou título de eleitor do responsável pela família", "Documento com foto e comprovante de endereço do responsável", "Um documento de cada pessoa da família (de preferência o CPF)"],
+    "onde": "CRAS ou posto do Cadastro Único da prefeitura da sua cidade",
+    "fonte": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 3,
+    "categoria": "Benefícios e direitos",
+    "titulo": "Pedir isenção de IPI na compra de carro",
+    "palavras_chave": ["ipi", "iof", "isencao de imposto", "comprar carro", "carro pcd", "sisen"],
+    "resposta": "Pessoas com deficiência física, visual, mental severa ou profunda, ou com autismo, podem pedir isenção de IPI na compra de carro. O pedido é feito no sistema Sisen, da Receita Federal, e o resultado sai em até 72 horas. Quem não dirige também pode pedir, indicando um motorista habilitado. Uma nova isenção só pode ser pedida depois de 3 anos.",
+    "documentos": ["Conta gov.br (nível bronze, prata ou ouro)", "Laudo médico no modelo da Receita Federal (IN RFB nº 1.769/2017)", "Para deficiência física: CNH com a restrição compatível, se a própria pessoa for dirigir"],
+    "onde": "Sistema Sisen, no site da Receita Federal",
+    "fonte": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/isencao-para-compra-de-carro/isencao-para-compra-de-carro",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 4,
+    "categoria": "Transporte e mobilidade",
+    "titulo": "Pedir o Passe Livre interestadual",
+    "palavras_chave": ["passe livre", "onibus interestadual", "viagem de onibus", "viajar de graca", "passagem gratuita"],
+    "resposta": "O Passe Livre garante viagens gratuitas no transporte interestadual para pessoas com deficiência que cumprem os critérios do programa. O pedido mais rápido é pelo sistema Passe Livre Digital, da ANTT. Ao final da inscrição já é possível emitir a carteirinha. Os critérios de quem tem direito são conferidos no próprio sistema.",
+    "documentos": ["Documento oficial de identificação com CPF", "Formulário de requerimento disponível no site da ANTT"],
+    "onde": "Sistema Passe Livre Digital (passelivre.antt.gov.br) ou envio dos documentos pelos Correios para a ANTT",
+    "fonte": "https://www.gov.br/antt/pt-br/assuntos/passageiros/passageiros-rodoviarios/passe-livre",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 5,
+    "categoria": "Transporte e mobilidade",
+    "titulo": "Tirar o cartão de estacionamento DeFis (cidade de São Paulo)",
+    "palavras_chave": ["defis", "cartao de estacionamento", "vaga de deficiente", "vaga especial", "estacionar"],
+    "resposta": "O cartão DeFis é para quem mora na cidade de São Paulo e tem deficiência que reduz a mobilidade (permanente ou temporária) ou deficiência visual nos dois olhos. O pedido é gratuito, pode ser feito pela internet e fica pronto em até 15 dias. O cartão vale em todo o Brasil.",
+    "documentos": ["Documento de identidade com foto", "Comprovante de residência em São Paulo do mês atual ou do anterior", "Laudo médico que mostre a redução da mobilidade (se for temporária, emitido há no máximo 3 meses)"],
+    "onde": "Portal SP156 (internet) ou Praças de Atendimento das Subprefeituras, com agendamento pelo 156",
+    "fonte": "https://prefeitura.sp.gov.br/web/mobilidade/w/autorizacoes_especiais/cartao_de_estacionamento_defis/3557",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 6,
+    "categoria": "Transporte e mobilidade",
+    "titulo": "Emitir a credencial de estacionamento digital",
+    "palavras_chave": ["credencial de estacionamento", "credencial digital", "carteira digital de transito", "cdt", "senatran"],
+    "resposta": "Pessoas com deficiência e idosos que têm CNH válida podem emitir a credencial de estacionamento pelo celular, de graça e na hora. O serviço depende de o órgão de trânsito da sua cidade ter aderido.",
+    "documentos": ["CPF", "CNH válida", "Conta gov.br (nível bronze, prata ou ouro)"],
+    "onde": "Aplicativo Carteira Digital de Trânsito (Condutor > Credencial de Estacionamento) ou Portal de Serviços Senatran",
+    "fonte": "https://www.gov.br/pt-br/servicos/emitir-credencial-de-estacionamento-digital",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 7,
+    "categoria": "Transporte e mobilidade",
+    "titulo": "Pedir o Bilhete Único Especial da pessoa com deficiência (SPTrans)",
+    "palavras_chave": ["bilhete unico especial", "bilhete unico", "sptrans", "cartao do onibus", "onibus municipal"],
+    "resposta": "Pessoas com deficiência que moram na cidade de São Paulo, na Região Metropolitana, em Jundiaí, Campo Limpo Paulista ou Várzea Paulista podem pedir o Bilhete Único Especial. Primeiro, confira no site da SPTrans se a sua condição dá direito e quais exames são pedidos. Depois, leve o formulário ao médico e envie a documentação. O cartão chega pelo correio.",
+    "documentos": ["Formulário de solicitação preenchido pelo médico (CID, limitações, carimbo e CRM)", "Exames complementares exigidos para a sua condição", "O formulário vale 90 dias (o de laudo permanente não vence)"],
+    "onde": "Site de Atendimento da SPTrans ou Posto de Atendimento da SPTrans",
+    "fonte": "https://bilheteunico.sptrans.com.br/especial/pessoa-com-deficiencia/",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 8,
+    "categoria": "Saúde e reabilitação",
+    "titulo": "Conseguir cadeira de rodas, órtese ou prótese pelo SUS",
+    "palavras_chave": ["cadeira de rodas", "ortese", "protese", "cadeira de rodas pelo sus", "equipamento de locomocao"],
+    "resposta": "O SUS oferece cadeiras de rodas com adaptação postural, órteses e próteses. O pedido pode ser feito pelo serviço de saúde que já acompanha a pessoa.",
+    "documentos": ["A fonte oficial não lista os documentos: confirme no serviço de saúde que acompanha a pessoa"],
+    "onde": "Serviço de saúde que já acompanha a pessoa",
+    "fonte": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/ela/faq/faq/o-sus-oferece-cadeira-de",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 9,
+    "categoria": "Saúde e reabilitação",
+    "titulo": "Reabilitação no CER e na Oficina Ortopédica do SUS",
+    "palavras_chave": ["cer", "centro de reabilitacao", "reabilitacao", "oficina ortopedica", "conserto de cadeira"],
+    "resposta": "O Centro Especializado em Reabilitação (CER) faz diagnóstico, tratamento, entrega e adaptação de tecnologia assistiva, com reabilitação física, intelectual, visual ou auditiva. A Oficina Ortopédica oferece de graça órteses, próteses e meios de locomoção, faz adaptação, manutenção e pequenos consertos, além de ajustes de postura em cadeiras de rodas.",
+    "documentos": ["A fonte oficial não lista os documentos: confirme no serviço de saúde que acompanha a pessoa"],
+    "onde": "O atendimento é organizado pela rede do SUS: procure o serviço de saúde que acompanha a pessoa",
+    "fonte": "https://www.gov.br/saude/pt-br/assuntos/noticias/2022/agosto/centro-especializado-em-reabilitacao-e-oficina-ortopedica-sao-pontos-de-atencao-a-pessoa-com-deficiencia-no-sus",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 10,
+    "categoria": "Energia",
+    "titulo": "Conta de luz grátis ou com desconto (Tarifa Social / Luz do Povo)",
+    "palavras_chave": ["tarifa social", "luz do povo", "conta de luz", "desconto na luz", "energia gratis"],
+    "resposta": "Têm gratuidade de até 80 kWh por mês: famílias no CadÚnico com renda de até meio salário mínimo por pessoa; pessoas com deficiência e idosos de 65 anos ou mais que recebem o BPC; e famílias no CadÚnico com renda de até 3 salários mínimos que têm alguém que depende de aparelho elétrico para tratamento de saúde. É automático: não precisa pedir na distribuidora, mas o CadÚnico precisa estar atualizado.",
+    "documentos": ["CadÚnico atualizado", "Conta de luz no nome de quem se enquadra nas regras"],
+    "onde": "É automático. Para conferir: conta de luz, atendimento da distribuidora ou Disque 121",
+    "fonte": "https://www.gov.br/mme/pt-br/luzdopovo",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 11,
+    "categoria": "Energia",
+    "titulo": "Cadastrar quem usa aparelho elétrico vital na distribuidora de energia",
+    "palavras_chave": ["equipamento vital", "aparelho vital", "equipamento eletromedico", "desligamento programado", "falta de energia"],
+    "resposta": "Quem depende de aparelho elétrico para viver pode ser cadastrado na distribuidora de energia, para ser avisado antes de desligamentos programados. O cadastro não dispensa o pagamento da conta. Exemplo oficial: no Paraná (Copel), o titular da conta faz o cadastro presencialmente e de graça, e precisa renovar todo ano. Em outros estados, procure a sua distribuidora.",
+    "documentos": ["RG e CPF do titular da conta e de quem usa o aparelho", "Formulário do equipamento assinado e carimbado pelo médico", "Termo de compromisso e declaração de vínculo com o responsável pelo imóvel"],
+    "onde": "Agência da sua distribuidora de energia (no Paraná, agências da Copel)",
+    "fonte": "https://www.parana.pr.gov.br/servicos/Servicos/Habitacao/Cadastrar-usuario-de-equipamento-vital-na-Copel-ZVNk7pNe",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 12,
+    "categoria": "Energia",
+    "titulo": "Economizar energia em casa",
+    "palavras_chave": ["economizar energia", "gastar menos luz", "conta de luz alta", "lampada led", "selo procel"],
+    "resposta": "Algumas mudanças simples reduzem a conta: banhos mais curtos (o chuveiro elétrico gasta muito), geladeira com Selo Procel e com a borracha da porta em bom estado, lâmpadas LED no lugar das fluorescentes, e ar-condicionado classe A com tecnologia inverter, usado com moderação.",
+    "documentos": ["Não precisa de documentos"],
+    "onde": "Em casa. Na compra de aparelhos, confira o Selo Procel e a etiqueta de eficiência",
+    "fonte": "https://agenciaminas.mg.gov.br/noticia/confira-como-pequenas-mudancas-podem-reduzir-o-valor-da-conta-de-luz",
+    "verificado_em": "2026-11-06"
+  }
+]
