@@ -125,10 +125,21 @@
     "categoria": "Energia",
     "titulo": "Economizar energia em casa",
     "palavras_chave": ["economizar energia", "gastar menos luz", "conta de luz alta", "lampada led", "selo procel"],
-    "resposta": "Algumas mudanças simples reduzem a conta: banhos mais curtos (o chuveiro elétrico gasta muito), geladeira com Selo Procel e com a borracha da porta em bom estado, lâmpadas LED no lugar das fluorescentes, e ar-condicionado classe A com tecnologia inverter, usado com moderação.",
+    "resposta": "Algumas mudanças simples reduzem a conta: banhos mais curtos (o chuveiro elétrico gasta muito), geladeira com Selo Procel e com a borracha da porta em bom estado, lâmpadas LED no lugar das fluorescentes, e ar-condicionado classe A com tecnologia inverter, usado com moderação. Para comparar essas mudanças com a energia solar na sua casa, use a opção 5 do menu.",
     "documentos": ["Não precisa de documentos"],
     "onde": "Em casa. Na compra de aparelhos, confira o Selo Procel e a etiqueta de eficiência",
     "fonte": "https://agenciaminas.mg.gov.br/noticia/confira-como-pequenas-mudancas-podem-reduzir-o-valor-da-conta-de-luz",
     "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 13,
+    "categoria": "Energia",
+    "titulo": "Gerar a própria energia com placas solares",
+    "palavras_chave": ["energia solar", "placa solar", "placas solares", "painel solar", "fotovoltaica", "gerar energia"],
+    "resposta": "Placas solares ligadas à rede geram energia em casa, e a sobra vira crédito na conta de luz, que vale por 60 meses. Para sistemas novos, parte da tarifa de distribuição (Fio B) é cobrada sobre a energia compensada: 60% em 2026, 75% em 2027 e 90% em 2028. Na simulação do grupo para uma casa de 4 pessoas em São Paulo (197 kWh/mês), um sistema de 1,5 kWp custaria cerca de R$ 4.500 e se pagaria em uns 3 anos. Antes disso, vale reduzir o consumo e conferir a Tarifa Social. São estimativas, não valores garantidos.",
+    "documentos": ["Conta de luz, para saber o consumo mensal em kWh", "Casa própria com telhado que pegue sol, sem sombra"],
+    "onde": "Simule na opção 5 do menu. A instalação é feita por empresa especializada e conectada à rede da distribuidora",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm",
+    "verificado_em": "2026-11-09"
   }
 ]
