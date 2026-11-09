@@ -1,6 +1,6 @@
 # Citizen Assist AI
 
-Assistente de terminal, em Python, que orienta **pessoas com deficiência, pessoas com mobilidade reduzida e seus cuidadores** sobre benefícios, transporte, saúde e energia, sempre com fonte oficial e sem pedir dados pessoais.
+Assistente de terminal, em Python, que orienta **pessoas com deficiência, pessoas com mobilidade reduzida e seus cuidadores** sobre benefícios, transporte, saúde e energia, sempre com fonte oficial e sem pedir dados pessoais. Também traz um **simulador de energia** que compara formas de baixar a conta de luz.
 
 Global Solution 2026.2 · Pensamento Computacional e Automação com Python · FIAP
 
@@ -40,6 +40,7 @@ Menu:
 2 - Navegar por categorias
 3 - Ver indicadores
 4 - Exportar atendimentos (CSV)
+5 - Simulador de energia
 0 - Sair
 ```
 
@@ -54,10 +55,14 @@ citizen-assist-ai/
 ├── orientacao.py            # classe Orientacao
 ├── base_conhecimento.py     # classe BaseConhecimento + normalizar()
 ├── assistente.py            # classe Assistente
+├── energia.py               # simulador de energia (contribuição de SERS)
+├── docs/
+│   └── analise_energetica.md
 └── data/
     ├── base_conhecimento.json
     ├── historico.json
-    └── atendimentos.csv
+    ├── atendimentos.csv
+    └── energia.json         # dados e premissas da análise de energia
 ```
 
 As classes se encaixam por composição:
@@ -70,7 +75,7 @@ Assistente
 
 ## Base de conhecimento
 
-`data/base_conhecimento.json` tem **12 orientações** em **4 categorias** (Benefícios e direitos, Transporte e mobilidade, Saúde e reabilitação, Energia), cada uma com pelo menos 3 palavras-chave, fonte oficial e data de verificação. O assistente só responde com o que está na base.
+`data/base_conhecimento.json` tem **13 orientações** em **4 categorias** (Benefícios e direitos, Transporte e mobilidade, Saúde e reabilitação, Energia), cada uma com pelo menos 3 palavras-chave, fonte oficial e data de verificação. O assistente só responde com o que está na base.
 
 ## Regra de pontuação
 
@@ -108,11 +113,20 @@ Indicadores (opção 3): resposta encontrada (%), taxa de acerto (ajudou %), tem
 ## Integrações com outras disciplinas
 
 - **Computer Organization and Architecture:** o grupo desenvolveu o **Língua Livre**, um protótipo com Raspberry Pi Pico que permite a pessoas com tetraplegia controlar aparelhos com a língua. O Citizen Assist AI atende o mesmo público, com orientações sobre os direitos dessas pessoas. A integração é de tema; os códigos são independentes.
-- **Soluções em Energias Renováveis e Sustentáveis:** a categoria **Energia** é o ponto de integração com a análise energética da disciplina.
+- **Soluções em Energias Renováveis e Sustentáveis:** a contribuição da disciplina é o **simulador de energia** (opção 5, `energia.py`, `data/energia.json`) e as orientações da categoria **Energia**. A análise completa está em [`docs/analise_energetica.md`](docs/analise_energetica.md).
+
+## Energia (contribuição de SERS)
+
+O simulador compara, para o mesmo consumo e o mesmo período (12 meses e 10 anos), duas formas de baixar a conta de luz de uma casa com uma pessoa que usa cadeira de rodas motorizada:
+
+- **A – Eficiência:** trocar lâmpadas fluorescentes por LED e encurtar o banho em 4 minutos.
+- **B – Energia solar fotovoltaica:** sistema dimensionado para o consumo da casa.
+
+Na casa de referência (4 pessoas em São Paulo, 197 kWh/mês), a eficiência custa R$ 96 e economiza cerca de R$ 48/mês. A solar (1,5 kWp) custa cerca de R$ 4.500, economiza cerca de R$ 127/mês e se paga em uns 3 anos. A recomendação é conferir a Luz do Povo, começar pela eficiência e só depois pensar na solar, se houver casa própria com telhado ao sol. Dados, cálculos, custos, viabilidade, impactos ambientais, limitações e referências estão em [`docs/analise_energetica.md`](docs/analise_energetica.md).
 
 ## Fontes consultadas
 
-Todas conferidas em 06/11/2026:
+Conferidas em 06/11/2026, salvo indicação:
 
 1. BPC à pessoa com deficiência – gov.br: https://www.gov.br/pt-br/servicos/solicitar-beneficio-assistencial-a-pessoa-com-deficiencia
 2. Cadastro Único – gov.br: https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal
@@ -126,10 +140,15 @@ Todas conferidas em 06/11/2026:
 10. Luz do Povo / Tarifa Social – Ministério de Minas e Energia: https://www.gov.br/mme/pt-br/luzdopovo
 11. Cadastro de equipamento vital – Governo do Paraná: https://www.parana.pr.gov.br/servicos/Servicos/Habitacao/Cadastrar-usuario-de-equipamento-vital-na-Copel-ZVNk7pNe
 12. Economia de energia – Agência Minas (Governo de MG): https://agenciaminas.mg.gov.br/noticia/confira-como-pequenas-mudancas-podem-reduzir-o-valor-da-conta-de-luz
+13. Energia solar / geração distribuída – Lei 14.300/2022 (conferida em 09/11/2026): https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm
+
+As fontes da análise de energia estão em `docs/analise_energetica.md`.
 
 ## Resultado do teste com usuários
 
 > **Preencher depois do teste.** Mínimo de 3 pessoas de fora da equipe e 10 atendimentos no total. Não registrar nomes nem dados dessas pessoas.
+>
+> Na mesma rodada, peça que cada pessoa use também a opção 5 (simulador de energia). O registro desse teste, exigido por SERS, fica em `docs/analise_energetica.md`.
 
 | Participante | Atendimentos |
 |---|---|
@@ -158,12 +177,13 @@ Melhoria feita a partir do teste:
 
 ## Limitações
 
-- A base tem 12 orientações. Dúvidas fora delas recebem "não encontrei".
+- A base tem 13 orientações. Dúvidas fora delas recebem "não encontrei".
 - A busca compara palavras: não entende sinônimos nem erros de digitação que não estejam nas palavras-chave.
 - Regras e valores mudam. O Passe Livre, por exemplo, teve regras atualizadas em 2026; por isso cada resposta mostra a data de verificação e o aviso para confirmar no órgão oficial.
 - Algumas orientações valem só para algumas cidades ou estados (Cartão DeFis e Bilhete Único Especial em São Paulo; o exemplo de cadastro de equipamento vital é da Copel, no Paraná).
 - O assistente não consulta sistemas oficiais nem faz pedidos: ele só orienta.
 - A média de facilidade usa a nota dada ao sair, aplicada a todos os atendimentos daquela sessão.
+- O simulador de energia usa premissas e preços de referência: os resultados são estimativas, não valores garantidos.
 
 ## Vídeo técnico
 
