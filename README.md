@@ -192,4 +192,4 @@ Melhorias feitas a partir do teste:
 
 ## Vídeo técnico
 
-Link (YouTube, não listado): 
+Link (YouTube, não listado): https://youtu.be/J_7IsrYaqSw
