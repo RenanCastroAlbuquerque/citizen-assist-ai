@@ -1,1 +1,11 @@
-data,origem,pergunta,id_orientacao,encontrou,ajudou,tentativas,tempo_segundos,facilidade
+﻿data,origem,pergunta,id_orientacao,encontrou,ajudou,tentativas,tempo_segundos,facilidade
+2026-11-10 21:40:47,categoria,Categoria: Benefícios e direitos,1,True,True,1,3.6,5
+2026-11-10 21:41:02,categoria,Categoria: Saúde e reabilitação,9,True,True,1,2.8,5
+2026-11-10 21:41:09,categoria,Categoria: Energia,12,True,True,1,2.8,5
+2026-11-10 21:45:28,pergunta,De que maneira eu poderia conseguir um cartão de idoso para poder parar nas vagas de idoso?,,False,False,1,9.0,5
+2026-11-10 21:45:40,categoria,Categoria: Saúde e reabilitação,8,True,True,1,1.6,5
+2026-11-10 21:47:27,categoria,Categoria: Benefícios e direitos,3,True,True,1,6.2,5
+2026-11-10 21:49:52,pergunta,Uma pessoa com deficiência precisa pagar tarifa para visitar um parente seu que mora longe?,1,True,True,1,0.0,5
+2026-11-10 21:50:28,pergunta,Colocar energia Solar em casa vale a pena?,13,True,True,1,0.0,5
+2026-11-10 21:51:10,pergunta,"Em quantos porcento seria possivel economizar com energia solar, sendo que eu pago 350 em energia",13,True,True,1,0.0,5
+2026-11-10 21:51:54,pergunta,Seria possivel encomendar um determinado tipo de modificação no carro para pessoas com deficiência?,,False,False,1,3.9,5

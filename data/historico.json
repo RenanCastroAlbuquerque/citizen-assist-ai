@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "data": "2026-11-10 21:40:47",
+    "origem": "categoria",
+    "pergunta": "Categoria: Benefícios e direitos",
+    "id_orientacao": 1,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 3.6,
+    "facilidade": 5
+  },
+  {
+    "data": "2026-11-10 21:41:02",
+    "origem": "categoria",
+    "pergunta": "Categoria: Saúde e reabilitação",
+    "id_orientacao": 9,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 2.8,
+    "facilidade": 5
+  },
+  {
+    "data": "2026-11-10 21:41:09",
+    "origem": "categoria",
+    "pergunta": "Categoria: Energia",
+    "id_orientacao": 12,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 2.8,
+    "facilidade": 5
+  },
+  {
+    "data": "2026-11-10 21:45:28",
+    "origem": "pergunta",
+    "pergunta": "De que maneira eu poderia conseguir um cartão de idoso para poder parar nas vagas de idoso?",
+    "id_orientacao": null,
+    "encontrou": false,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo_segundos": 9.0,
+    "facilidade": 5
+  },
+  {
+    "data": "2026-11-10 21:45:40",
+    "origem": "categoria",
+    "pergunta": "Categoria: Saúde e reabilitação",
+    "id_orientacao": 8,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 1.6,
+    "facilidade": 5
+  },
+  {
+    "data": "2026-11-10 21:47:27",
+    "origem": "categoria",
+    "pergunta": "Categoria: Benefícios e direitos",
+    "id_orientacao": 3,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 6.2,
+    "facilidade": 5
+  },
+  {
+    "data": "2026-11-10 21:49:52",
+    "origem": "pergunta",
+    "pergunta": "Uma pessoa com deficiência precisa pagar tarifa para visitar um parente seu que mora longe?",
+    "id_orientacao": 1,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 0.0,
+    "facilidade": 5
+  },
+  {
+    "data": "2026-11-10 21:50:28",
+    "origem": "pergunta",
+    "pergunta": "Colocar energia Solar em casa vale a pena?",
+    "id_orientacao": 13,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 0.0,
+    "facilidade": 5
+  },
+  {
+    "data": "2026-11-10 21:51:10",
+    "origem": "pergunta",
+    "pergunta": "Em quantos porcento seria possivel economizar com energia solar, sendo que eu pago 350 em energia",
+    "id_orientacao": 13,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 0.0,
+    "facilidade": 5
+  },
+  {
+    "data": "2026-11-10 21:51:54",
+    "origem": "pergunta",
+    "pergunta": "Seria possivel encomendar um determinado tipo de modificação no carro para pessoas com deficiência?",
+    "id_orientacao": null,
+    "encontrou": false,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo_segundos": 3.9,
+    "facilidade": 5
+  }
+]
