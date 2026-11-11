@@ -114,13 +114,15 @@ Com os primeiros 80 kWh grátis, a família paga só 117,1 kWh (cerca de R$ 115/
 
 ## 9. Testes com usuários
 
-> **Preencher depois do teste** (pode ser na mesma rodada do teste de Python). Não registrar nomes nem dados pessoais.
+Feito na mesma rodada do teste de Python, em 10/11/2026, com 3 pessoas de fora da equipe, sem registro de nomes ou dados pessoais. As situações de energia abaixo estão em `data/historico.json` (o simulador da opção 5 não grava histórico).
 
-| Situação testada | Comentário recebido | Ajuste realizado |
+| Situação testada | Resultado | Ajuste realizado |
 |---|---|---|
-| Ex.: simular a própria conta de luz na opção 5 | | |
-| Ex.: perguntar "vale a pena energia solar?" | | |
-| Ex.: perguntar sobre tarifa social | | |
+| Navegar pela categoria Energia e abrir "Economizar energia em casa" | Encontrou; a pessoa marcou que ajudou | Nenhum |
+| Perguntar "Colocar energia solar em casa vale a pena?" | Encontrou a orientação de energia solar (id 13), com o resultado desta análise | Nenhum |
+| Perguntar "Em quantos por cento seria possível economizar com energia solar, sendo que eu pago 350 em energia?" | Encontrou a orientação de energia solar, mas ela traz a estimativa da casa de referência, não a da conta da pessoa | A resposta da orientação 13 passou a explicar como estimar a economia com a própria conta na opção 5 (consumo em kWh e valor da conta) |
+
+**Comentários recebidos:** os participantes acharam o sistema fácil e intuitivo; um deles destacou as fontes, que mostram que as informações são verídicas.
 
 ## 10. Referências
 
