@@ -146,38 +146,43 @@ As fontes da análise de energia estão em `docs/analise_energetica.md`.
 
 ## Resultado do teste com usuários
 
-> **Preencher depois do teste.** Mínimo de 3 pessoas de fora da equipe e 10 atendimentos no total. Não registrar nomes nem dados dessas pessoas.
->
-> Na mesma rodada, peça que cada pessoa use também a opção 5 (simulador de energia). O registro desse teste, exigido por SERS, fica em `docs/analise_energetica.md`.
+Teste feito em 10/11/2026 com **3 pessoas de fora da equipe**, cada uma em uma sessão própria, somando **10 atendimentos**. Nomes e dados pessoais não foram registrados. Os atendimentos estão em `data/historico.json` e `data/atendimentos.csv`.
 
 | Participante | Atendimentos |
 |---|---|
-| Pessoa 1 | |
-| Pessoa 2 | |
-| Pessoa 3 | |
-| **Total** | |
+| Pessoa 1 | 3 |
+| Pessoa 2 | 3 |
+| Pessoa 3 | 4 |
+| **Total** | **10** |
 
-Indicadores obtidos (copiar da opção 3 do menu):
+Indicadores obtidos (opção 3 do menu):
 
 | Indicador | Resultado |
 |---|---|
-| Resposta encontrada | |
-| Taxa de acerto (ajudou) | |
-| Tempo médio para encontrar | |
-| Tentativas por atendimento | |
-| Facilidade de uso (1 a 5) | |
+| Resposta encontrada | 80% |
+| Taxa de acerto (ajudou) | 80% |
+| Tempo médio para encontrar | 2,1 s |
+| Tentativas por atendimento | 1,0 |
+| Facilidade de uso (1 a 5) | 5,0 |
+
+Comentários: os participantes acharam o sistema fácil e intuitivo; um deles destacou as fontes oficiais, que mostram que as informações são verídicas.
 
 Dúvidas sem solução:
 
-- 
+- "De que maneira eu poderia conseguir um cartão de idoso para poder parar nas vagas de idoso?"
+- "Seria possível encomendar um determinado tipo de modificação no carro para pessoas com deficiência?" (assunto que não está na base)
 
-Melhoria feita a partir do teste:
+Observação: a pergunta "Uma pessoa com deficiência precisa pagar tarifa para visitar um parente seu que mora longe?" foi respondida com o BPC (3 pontos, confiança MÉDIA), quando o certo seria o Passe Livre.
 
-- 
+Melhorias feitas a partir do teste:
+
+- **Orientação 6 (credencial de estacionamento):** novas palavras-chave `idoso`, `cartao de idoso` e `vaga de idoso`. A pergunta do cartão de idoso, que não era encontrada, agora encontra a credencial com 6 pontos (confiança ALTA).
+- **Orientação 4 (Passe Livre):** novas palavras-chave `visitar`, `mora longe` e `outro estado`. A pergunta sobre visitar um parente agora mostra o Passe Livre com 6 pontos, à frente do BPC.
+- **Orientação 13 (energia solar):** a resposta agora indica como estimar a economia com a própria conta na opção 5, depois que um participante perguntou quanto economizaria pagando R$ 350 de energia.
 
 ## Limitações
 
-- A base tem 13 orientações. Dúvidas fora delas recebem "não encontrei".
+- A base tem 13 orientações. Dúvidas fora delas recebem "não encontrei", como aconteceu no teste com uma pergunta sobre adaptação de carros.
 - A busca compara palavras: não entende sinônimos nem erros de digitação que não estejam nas palavras-chave.
 - Regras e valores mudam. O Passe Livre, por exemplo, teve regras atualizadas em 2026; por isso cada resposta mostra a data de verificação e o aviso para confirmar no órgão oficial.
 - Algumas orientações valem só para algumas cidades ou estados (Cartão DeFis e Bilhete Único Especial em São Paulo; o exemplo de cadastro de equipamento vital é da Copel, no Paraná).
